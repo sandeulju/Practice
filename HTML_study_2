@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML_study_2</title>
+  <style>
+
+    *{
+      margin:0;padding:0;
+    }
+
+    .black{
+      width:700px;height:950px;background-color:black;
+    }
+
+    .white{
+      width:650px;
+      color:white;
+      border-bottom: 1px solid white;
+      margin: 0 auto;
+    }
+
+    h1{
+      font-size:40px;
+      display:inline-block;
+    }
+
+    p{
+      font-size:1px;
+      display:inline-block;
+    }
+
+    .a{
+      
+    }
+
+    section>div{
+      width:450px;
+      height:50px;
+    }
+
+    .green{
+      background-color:#71C167;
+    }
+
+    .yellow{
+      background-color:#FEC455;
+    }
+
+    .orange{
+      background-color:#F59546;
+    }
+
+    .red{
+      background-color:#E95653;
+    }
+
+    .perple{
+      background-color:#A6559F;
+    }
+
+    .blue{
+      background-color:#05ADE0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="black">
+    <header class="white">
+      <h1>07.</h1>
+      <p>lorem Lorem ipsum</p>
+      <p>lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p>Dolorem harum beatae vel praesentium accusamus recusandae repudiandae.</p>
+      <p>Quasi tempore natus atque dolor repellat,</p>
+    </header>
+
+    <section class="a">
+    <div class="green"></div>
+    <div class="yellow"></div>
+    <div class="orange"></div>
+    <div class="red"></div>
+    <div class="perple"></div>
+    <div class="blue"></div>
+    </section>
+  </div>
+</body>
+</html>
